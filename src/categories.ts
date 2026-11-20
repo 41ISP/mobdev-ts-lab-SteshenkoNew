@@ -8,4 +8,4 @@ export const CATEGORY_LABELS: Record<TCategory, string> = {
     other: "Другое",
 }
 
-export const CATEGORY_LIST = Object.keys(CATEGORY_LABELS) as TCategory []
+export const CATEGORY_LIST = Object.keys(CATEGORY_LABELS) as TCategory[]

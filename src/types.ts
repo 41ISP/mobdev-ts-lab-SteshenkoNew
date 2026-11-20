@@ -10,3 +10,5 @@ export interface IPayment {
     paid: boolean,
     category?: TCategory
 }
+
+export type INewPayment = TNewPayment
