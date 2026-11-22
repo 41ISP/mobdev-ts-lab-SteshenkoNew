@@ -8,7 +8,7 @@ export interface IPayment {
     amount: number,
     due: string,
     paid: boolean,
-    category?: TCategory
+    category: TCategory
 }
 
 export type INewPayment = TNewPayment
